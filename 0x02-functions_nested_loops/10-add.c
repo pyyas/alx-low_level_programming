@@ -9,5 +9,3 @@ int add(int n, int m)
 {
 return (n + m);
 }
-Footer
-© 2022 GitHub, Inc.
