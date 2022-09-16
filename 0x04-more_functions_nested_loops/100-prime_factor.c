@@ -7,20 +7,17 @@
  */
 int main(void)
 {
+	int c;
+	long num = 612852475143;
 
-unsigned int long n = 612852475143, a = (int) sqrt(n);
-
-while (1)
-{
-
-	if (n % a == 0)
+	for (c = (int) sqrt(num); c > 2; c++)
 	{
-		printf("%lu \n", n / a);
-		break;
+		if (num % c == 0)
+		{
+			printf("%d\n", c);
+			break;
+		}
 	}
-	a--;
 
-}
-
-return (0);
+	return (0);
 }
